@@ -10,7 +10,7 @@ The scripts used in a novel MSA-VS based approach (for conservative epitopes fil
 **Function:** Batch download sequences based on their IDs.
 
 **Usage:** Place the text format of the ID (accession number) list in a folder, past the script in the same folder, then run the following bash script at the Linux command line.
-> bash sequence_batch_download.sh IDlist.txt #database #outputname
+> bash Sequence_batch_download.sh IDlist.txt #database #outputname
 
 ### 3. A python script used for searching unqualified sequences in the downloaded sequences.
 **Function:** Search for unqualified sequences containing “X” in the downloaded sequences, and output the fasta file after removing the unqualified sequences.
